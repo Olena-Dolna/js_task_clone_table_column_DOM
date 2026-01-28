@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),t=e.querySelector("thead > tr > th:nth-child(2)").cloneNode(!0),r=e.querySelector("tfoot > tr > th:nth-child(2)").cloneNode(!0),l=Array.from(e.querySelectorAll("tbody > tr > td:nth-child(2)")),o=e.querySelector("thead > tr > th:last-child"),c=e.querySelector("tfoot > tr > th:last-child"),h=e.querySelectorAll("tr > td:last-child");o.before(t),c.before(r);for(var d=0;d<l.length;d++)h[d].before(l[d].cloneNode(!0));
+//# sourceMappingURL=index.107e43a8.js.map
